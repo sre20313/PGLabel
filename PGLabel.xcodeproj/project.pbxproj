@@ -21,6 +21,7 @@
 		55ADBE361916AAC8000194C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55ADBE181916AAC8000194C2 /* UIKit.framework */; };
 		55ADBE3E1916AAC8000194C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55ADBE3C1916AAC8000194C2 /* InfoPlist.strings */; };
 		55ADBE401916AAC8000194C2 /* PGLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55ADBE3F1916AAC8000194C2 /* PGLabelTests.m */; };
+		55ADBE4B1916AAFE000194C2 /* PGLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55ADBE4A1916AAFE000194C2 /* PGLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		55ADBE3B1916AAC8000194C2 /* PGLabelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PGLabelTests-Info.plist"; sourceTree = "<group>"; };
 		55ADBE3D1916AAC8000194C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55ADBE3F1916AAC8000194C2 /* PGLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGLabelTests.m; sourceTree = "<group>"; };
+		55ADBE491916AAFE000194C2 /* PGLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGLabel.h; sourceTree = "<group>"; };
+		55ADBE4A1916AAFE000194C2 /* PGLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		55ADBE1A1916AAC8000194C2 /* PGLabel */ = {
 			isa = PBXGroup;
 			children = (
+				55ADBE491916AAFE000194C2 /* PGLabel.h */,
+				55ADBE4A1916AAFE000194C2 /* PGLabel.m */,
 				55ADBE231916AAC8000194C2 /* PGAppDelegate.h */,
 				55ADBE241916AAC8000194C2 /* PGAppDelegate.m */,
 				55ADBE261916AAC8000194C2 /* Main.storyboard */,
@@ -253,6 +258,7 @@
 				55ADBE211916AAC8000194C2 /* main.m in Sources */,
 				55ADBE2B1916AAC8000194C2 /* PGViewController.m in Sources */,
 				55ADBE251916AAC8000194C2 /* PGAppDelegate.m in Sources */,
+				55ADBE4B1916AAFE000194C2 /* PGLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

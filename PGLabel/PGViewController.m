@@ -7,9 +7,15 @@
 //
 
 #import "PGViewController.h"
+#import "PGLabel.h"
 
 @interface PGViewController ()
-
+<
+    PGLabelDelegate
+>
+{
+    IBOutlet PGLabel *_label;
+}
 @end
 
 @implementation PGViewController
@@ -17,13 +23,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    _label.delegate = self;
+    _label.text = @"start";
 }
 
-- (void)didReceiveMemoryWarning
+#pragma mark - TMLabel delegate
+
+- (void)labelDidFinishTimer:(PGLabel *)label
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    _label.text = @"finish";
+    NSLog(@"finish");
 }
 
 @end
